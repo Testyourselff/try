@@ -1,0 +1,81 @@
+<!--Code by Shaiqin-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "icon" href ="https://cdn.iconscout.com/icon/premium/png-512-thumb/quiz-18-831952.png" type = "image/x-icon"> 
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="landing-page" >
+		<img src="Test Yourself.svg" alt="" width="100%" >
+	</div>
+	<hr>
+	<div class="home-box custome-box ">
+		<center>	
+		<h2>Instructions:
+			Total number of questions: <span class="total-question">10</span>
+		<br/></h2>
+		<button type="button" class="btn" onclick="startQuiz()">Start Quiz</button>
+		</center>	
+	</div>
+	<div class="quiz-box custome-box hide">
+		<div class="question-no">
+			
+		</div>
+		<div class="question-text">
+			
+		</div>
+		<div class="opt-container">
+			
+		</div>
+		<div class="next-question-btn">
+			<button type="button" class="btn" onclick=""><a href="index.html" style="color: white;">Back</a></button>
+			<button type="button" class="btn" onclick="next()">Next</button>
+		</div>
+		<div class="ans-indicator">
+		</div>
+	</div>
+
+	<div class="result-box custome-box hide">
+		<h1>Quiz Result</h1>
+		<table>
+			<tr>
+				<td>Total Question</td>
+				<td><span class="tot-question"></span></td>
+			</tr>
+			<tr>
+				<td>Attempt</td>
+				<td><span class="tot-attempt"></span></td>
+			</tr>
+			<tr>
+				<td>Correct</td>
+				<td><span class="tot-correct"></span></td>
+			</tr>
+			<tr>
+				<td>Wrong</td>
+				<td><span class="tot-wrong"></span></td>
+			</tr>
+			<tr>
+				<td>Percentage</td>
+				<td><span class="tot-percentage"></span></td>
+			</tr>
+			<tr>
+				<td>Your Total Score</td>
+				<td><span class="tot-score"></span></td>
+			</tr>
+
+		</table>
+		<button type="button" class="btn" onclick="tryAgainQuiz()">Try Again</button>
+		<button type="button" class="btn" onclick="goToHome()">Go To Home</button>
+	</div>
+	<center>
+		<footer class="cc">&copy; Copyright 2023, belongs to Test Yourself</footer>
+	</center>
+	<script type="text/javascript" src="question.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
+
+<!--Code by Shaiqin-->
