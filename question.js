@@ -1,11 +1,6 @@
 
 const quiz =[
 {
-	q:'Who is the Girlfriend of mansoor?',
-	options:['Naaz','Sweety','nisha'],
-	answer:0
-},
-{
 	q:'Is HTML a programming language?',
 	options:['Yes','No'],
 	answer:1
